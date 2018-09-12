@@ -76,6 +76,27 @@ img {
   padding-bottom: 95px;
 }
 
+.Interests {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6;
+  justify-content: center;
+}
+
+.interests-list{
+  justify-content: center;
+  list-style: none;
+  display: inline-block;
+}
+
+.interests-list img{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  border-color: black;
+  margin: 10px 10px;
+}
+
 .secondary-content {
   font-size: 1.25em; /* 20px/16px */
   line-height: 1.6;
@@ -97,7 +118,9 @@ img {
 
 .primary-content,
 .main-header,
-.main-footer {
+.main-footer
+.Interests
+.interests-list{
   text-align: center;
 }
 
@@ -108,7 +131,9 @@ img {
 /* Layout Styles -----------------------------------*/
 
 .primary-content,
-.secondary-content {
+.secondary-content,
+.Interests,
+.interests-list{
   width: 75%;
   padding-left: 50px;
   padding-right: 50px;
@@ -132,6 +157,7 @@ a:visited {
 a:hover {
   color: darkblue;
 }
+
 
 
 /* Floated Columns ----------------------------------*/
