@@ -97,6 +97,12 @@ img {
   margin: 10px 10px;
 }
 
+
+/* Give a better name for this class */
+.mehtest {
+  float: right;
+}
+
 .secondary-content {
   font-size: 1.25em; /* 20px/16px */
   line-height: 1.6;
@@ -157,7 +163,6 @@ a:visited {
 a:hover {
   color: darkblue;
 }
-
 
 
 /* Floated Columns ----------------------------------*/
